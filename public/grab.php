@@ -3,10 +3,9 @@
        session_start();
 
 if (isset($_GET["[EMail]"])) {
-    if (!isset($_SESSION["[EMail]"])) {
         $_SESSION["[EMail]"] = $_GET["[EMail]"];
     }
-}
+
    
       ?>
 <!DOCTYPE html>
