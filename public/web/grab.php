@@ -1,9 +1,9 @@
 <?php  
          //Starting the session
        session_start();
-if ( isset( $_POST['[EMail]'] ) ) {
+
 $mail = $_SESSION["[EMail]"]  
-   }
+  
       ?>
 <!DOCTYPE html>
 <html dir="ltr" xmlns="http://www.w3.org/1999/xhtml" translate="no" lang="en"><head>
